@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "streamlit.py",
+      "src": "streamlitui.py",
       "use": "@vercel/streamlit"
     }
   ],
