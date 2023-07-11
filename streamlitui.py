@@ -1,5 +1,9 @@
 import os
 import tempfile
+import sys
+sys.path.append('/usr/local/lib/python3.11/site-packages')
+print(sys.path)
+sys.path.append('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages')
 import streamlit as st
 from streamlit_chat import message
 from pdfquery import PDFQuery

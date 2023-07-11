@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "streamlit.py", "use": "@vercel/python" }
+  ]
+}

@@ -6,7 +6,7 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 
 # Replace book.pdf with any pdf of your choice
-loader = UnstructuredPDFLoader("book.pdf")
+loader = UnstructuredPDFLoader("Gloria_Li_Resume.pdf")
 pages = loader.load_and_split()
 embeddings = OpenAIEmbeddings()
 docsearch = Chroma.from_documents(pages, embeddings).as_retriever()
