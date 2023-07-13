@@ -56,7 +56,7 @@ def main():
         else:
             st.session_state["pdfquery"] = None
 
-    st.header("ChatPDF")
+    st.header("Stanley Document Bot")
 
     if st.text_input("OpenAI API Key", value=st.session_state["OPENAI_API_KEY"], key="input_OPENAI_API_KEY", type="password"):
         if (
