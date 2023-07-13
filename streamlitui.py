@@ -8,7 +8,7 @@ import streamlit as st
 from streamlit_chat import message
 from pdfquery import PDFQuery
 
-st.set_page_config(page_title="ChatPDF")
+st.set_page_config(page_title="Stanley's Document Bot")
 
 
 def display_messages():
@@ -87,7 +87,7 @@ def main():
     st.text_input("Message", key="user_input", disabled=not is_openai_api_key_set(), on_change=process_input)
 
     st.divider()
-    st.markdown("Source code: [Github](https://github.com/Anil-matcha/ChatPDF)")
+#    st.markdown("Source code: [Github](https://github.com/Anil-matcha/ChatPDF)")
 
 
 if __name__ == "__main__":
